@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --primary-color: #3e848b;
+    --secondary-color: white;
+    --tertiary-color: #e7d531;
 }
 
 * {
@@ -36,11 +36,11 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
 }
 header nav {
 margin: 7px 0;
@@ -54,9 +54,8 @@ header nav ul {
 }
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1.1vw;
 }
 header nav ul li a:hover {
     background: var(--primary-color);
@@ -103,7 +102,7 @@ section {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
