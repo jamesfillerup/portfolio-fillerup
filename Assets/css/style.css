@@ -84,7 +84,8 @@ footer h2 {
 footer div {
     line-height: 1.5;
     text-align: right;
-}footer a {
+}
+footer a {
     color: var(--color-2);
 }
 /* END FOOTER STYLES */
@@ -145,7 +146,7 @@ section {
     width: 50%;
     font-size: 20px;
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
 }
 .intro img {
     max-width: 300px;
@@ -194,7 +195,6 @@ section {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-    
 }
 
 /* REACH OUT STYLES END */
@@ -214,7 +214,6 @@ section {
 
 
 
-
 /* styling body */
 .flex-container {
     display: flex;
@@ -226,55 +225,53 @@ section {
 h1 {
     color: green;
 }
- 
+
 /* anchor tag decoration */
 a {
     text-decoration: none;
     color: #5673C8;
 }
- 
+
 a:hover {
     color: lightblue;
 }
- 
+
 /* paragraph tag decoration */
 p {
     display: -webkit-box;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal ;
     -webkit-line-clamp: 4;
-    overflow: hidden;
-    box-sizing: ;
 }
- 
+
 /* row and column decoration */
 .row {
     margin: 0px -18px;
     padding: 8px;
 }
- 
+
 .row > .column {
     padding: 6px;
 }
- 
+
 .column {
     float: left;
     width: 25%;
 }
- 
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
- 
+
 /* content decoration */
 .content {
     background-color: white;
     padding: 10px;
     border: 1px solid gray;
 }
- 
+
 /* window size 850 width set */
 @media screen and (max-width: 850px) {
     .column {
@@ -319,7 +316,7 @@ p {
     .section-title {
         width: 80%;
     }
-    
+}   
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
