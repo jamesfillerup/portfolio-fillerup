@@ -119,7 +119,7 @@ section {
 /* SECTION TITLE STYLES START */
 .section-title {
     font-size: 36px;
-    color: var(--terciary-color);
+    color: var(--color-3);
     border-bottom: 3px solid;
     max-width: 400px;
     padding-bottom: 20px;
