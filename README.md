@@ -17,7 +17,7 @@ This is made to showcase my work as a program developer. It will have examples o
 ## Website
 https://jamesfillerup.github.io/portfolio-fillerup/
 
-##Github
+## Github
 https://github.com/jamesfillerup/portfolio-fillerup
 
 
