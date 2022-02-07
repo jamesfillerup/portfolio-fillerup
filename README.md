@@ -5,7 +5,6 @@ This is made to showcase my work as a program developer. It will have examples o
 
 ## Projects
 * Run Buddy
-* Robot Gladiators
 * Coming Soon
 * Coming Soon
 * Coming Soon
@@ -16,6 +15,11 @@ This is made to showcase my work as a program developer. It will have examples o
 * Flexbox
 
 ## Website
+https://jamesfillerup.github.io/portfolio-fillerup/
+
+##Github
+https://github.com/jamesfillerup/portfolio-fillerup
+
 
 ### Image Sources
 Personal Images from James Fillerup
