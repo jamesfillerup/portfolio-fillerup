@@ -223,7 +223,7 @@ section {
 }
 
 h1 {
-    color: green;
+    color: rgb(22, 79, 22);
 }
 
 /* anchor tag decoration */
@@ -344,3 +344,4 @@ p {
         flex: 0 100%;
     }
 }
+
