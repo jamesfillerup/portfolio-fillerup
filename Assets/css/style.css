@@ -48,14 +48,15 @@ margin: 7px 0;
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: right ;
     align-items: center;
     list-style: none;
 }
 header nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 15px;
+    
 }
 header nav ul li a:hover {
     background: var(--color-1);
@@ -306,7 +307,7 @@ p {
         justify-content: center;
     }
     header nav ul li a {
-        font-size: 20px;
+        font-size: 15px;
     }
     footer h2, footer div {
         text-align: center;
