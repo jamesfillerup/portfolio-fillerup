@@ -25,7 +25,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("/Assets/images/hero-bg.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ section {
 /* hero style start */
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("/Assets/images/hero-bg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -292,7 +292,6 @@ p {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
