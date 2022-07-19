@@ -15,7 +15,7 @@ This is made to showcase my work as a program developer. It will have examples o
 * Flexbox
 
 ## Website
-https://jamesfillerup.github.io/portfolio-fillerup/
+https://fillerupdev.com/
 
 ## Github
 https://github.com/jamesfillerup/portfolio-fillerup
