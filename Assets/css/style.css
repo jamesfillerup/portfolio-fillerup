@@ -1,7 +1,10 @@
 :root {
     --color-1: #3e848b;
     --color-2: white;
-    --color-3: #0d62b1;
+    --color-3: #0c79df;
+    --color-4: #252729;
+    --color-5: rgb(22, 79, 22);
+    --color-6: #2d2f30;
 }
 
 * {
@@ -11,7 +14,6 @@
 }
 
 body {
-    color: var(--color-3);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -40,7 +42,7 @@ header h1 {
 }
 header a {
     text-decoration: none;
-    color: white;
+    color: var(--color-2);
 }
 header nav {
 margin: 7px 0;
@@ -139,7 +141,7 @@ section {
 /* WHAT WE DO STYLES */
 
 .intro {
-    background-color: whitesmoke;
+    background-color: var(--color-4);
 }
 .intro p {
     line-height: 1.7;
@@ -158,46 +160,6 @@ section {
 
 /* WHAT YOU DO STYLES END */
 
-
-
-
-/* CONTACT INFO STYLES START */
-.contact {
-    background: var(--color-2);
-    text-align: center;
-}
-.contact h2 {
-    color: var(--color-3);
-    border-bottom: 5px var(--color-1);
-    border-width: 5px solid var(--color-1);
-}
-.contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact-info > * {
-    flex: 1;
-    margin: 15px;
-}
-
-.contact-info iframe {
-    height: 400px;
-}
-.contact-info div {
-    color: white;
-}
-.contact-info h3 {
-    color: var(--color-1);
-    font-size: 32px;
-}
-.contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
-}
-
 .button {
     display: inline-block;
     padding: 1px 5px;
@@ -212,18 +174,9 @@ section {
 
 
 /* UTILITIES */
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 .flex-row {
     display: flex;
 }
-
-
 
 /* styling body */
 .flex-container {
@@ -231,20 +184,26 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: var(--color-6);
 }
 
 h1 {
-    color: rgb(22, 79, 22);
+    color: var(--color-1);
 }
 
-/* anchor tag decoration */
-a {
-    text-decoration: none;
-    color: #5673C8;
+hr {
+    background-color: var(--color-2);
 }
 
-a:hover {
-    color: lightblue;
+h2 {
+    color: var(--color-2)
+}
+
+
+/* CONTACT ME SECTION */
+.contact-card  {
+    background-color: var(--color-4);
+    color: var(--color-2);
 }
 
 /* paragraph tag decoration */
@@ -253,6 +212,8 @@ p {
     -webkit-box-orient: horizontal ;
     -webkit-line-clamp: 4;
 }
+
+
 
 /* row and column decoration */
 .row {
@@ -273,14 +234,6 @@ p {
     content: "";
     display: table;
     clear: both;
-}
-
-
-/* content decoration */
-.content {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid gray;
 }
 
 /* window size 850 width set */
